@@ -21,3 +21,7 @@ Route::get('/about', function () {
     return view('Pages.about');
 });
 
+Route::get('/HomeDeco', function () {
+    return view('Pages.HomeDeco');
+});
+
